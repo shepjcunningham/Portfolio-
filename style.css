@@ -1,0 +1,74 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem; 
+    /* Use Rem instead of pixel size for most font changes. 2rem = 2 x the font size  */
+}
+Header {
+    min-height: 100vh;
+    /* vh means using the height of your screen e.g. 100vh = 100% size of your screen */
+    background-color: rgb(214, 214, 214);
+}
+
+nav {
+    background-color: rgb(133, 59, 59);
+    position: fixed;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+   
+}
+
+nav ul {
+    padding: 1.25rem;
+    margin: 0%;
+}
+
+header main {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+/* nav a = all hyperlinks whithen the nav folder.. decendant selector */
+header img {
+    width: 30%;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-me {
+    padding: 3rem 0;
+    line-height: 2;
+    background-color:  rgb(133, 59, 59);
+    color: white;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+.projects {
+    padding: 3rem 0;
+    background-color: rgb(214, 214, 214); 
+}
+
+.projects img {
+    width: 25%;
+    padding: 30px;
+    padding-left: 0px;
+}
